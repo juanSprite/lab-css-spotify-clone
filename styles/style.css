@@ -1,8 +1,144 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* Colors
+Text: 1A1A1A;
+Green: #00B172;
+White: #FFF */ 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    height: 70px;
+    display:flex;
+    justify-content: space-between;
+}
 
-*/
+#logo-img{
+    width:200px;
+    height:60px;
+    margin-left:20px
+}
+
+#nav-opts{
+    display: flex;
+}
+
+#nav-opts>p>a{
+    text-decoration: none;
+    padding-left:20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color:black
+}
+    
+
+/* SECTION 1 */
+
+#sec-1{
+    width: 100vw;
+    height: 600px;
+    background-image: url("/images/landing.jpg");
+    background-size: 100vw;
+    color: white;
+}
+
+#text-sec-1{
+    text-align: center;
+    padding-top: 250px;
+}
+
+#header-1{
+    font-size: 80px;
+    text-align: center;
+}
+
+#text-sec-1 > p {
+    font-size: 30px;
+}
+
+/*SECTION 2*/
+
+#sect-2{
+    width:100vw;
+    height: 450px;
+}
+
+#header-2{
+    font-size:40px;
+    margin-top: 30px;
+    margin-left:450px;
+    margin-right: 495px;
+    border-bottom: 3.5px solid #00B172;
+    padding-bottom:3px;
+    
+}
+
+#boxes{
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.header-3{
+    font-size: 25px;
+    text-align:center;
+    color:#00B172;
+    font-weight:bold;
+}
+
+.icons{
+    padding-left: 40px;
+    height: 100px;
+    width:130px;
+}
+
+.text-sec-2{
+    font-size: 20px;
+    text-align:center;
+}
+
+
+/*SECTION 3*/
+
+#sec-3{
+    margin-left:50px;
+    margin-right:50px;
+    height: 600px;
+    color:#FFF;
+    background-color: #00B172;
+    display:flex;
+    justify-content: space-around;
+}
+
+#header-4 {
+    margin-top:50px;
+    font-size: 30px;
+    border-bottom:3px solid #FFF;
+    padding-bottom:5px;
+}
+
+.sect-3-titles{
+    font-size:22px;
+    margin-top:40px;
+}
+
+.sect-3-pars{
+    margin-top:25px;
+}
+
+#sec-3>aside{
+    text-align:left;
+}
+
+
+#Kanie-West-img{
+    height: 480px;
+    width: 320px;
+    margin-top:80px;
+}
+
+#white-logo{
+    margin-top:300px;
+  height:100px;
+  width:100px;
+}
+
